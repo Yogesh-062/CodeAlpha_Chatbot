@@ -29,8 +29,10 @@ Type your message in the input field and press <Enter> or click the Send button 
 ### Adding Custom Responses
 
 You can customize or add new responses in the chatbot by modifying the responses dictionary in the script. Use the following format:
-`responses = {
+```
+responses = {
     "hello": ["Hi there!", "Hello! How can I assist you?"],
     "bye": ["Goodbye! Have a great day!", "See you later!"]
-}`
+}
+```
 Simply add more key-value pairs to expand the chatbot's knowledge!
